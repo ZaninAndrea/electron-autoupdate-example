@@ -1,6 +1,6 @@
 const {app, BrowserWindow, ipcMain} = require('electron');
 const {autoUpdater} = require("electron-updater");
-let win; // this wills store the window object
+let win; // this will store the window object
 
 function createDefaultWindow() {
     win = new BrowserWindow({width: 900, height: 680});
